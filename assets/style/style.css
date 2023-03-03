@@ -1,48 +1,52 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 100%;
-    height: 100vh;
-    background: rgb(34,193,195);
-background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-background-repeat: no-repeat;
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  background-repeat: no-repeat;
 }
-.navbar-brand{
-    margin: 20px 0 0 20px;
+.navbar-brand {
+  padding: 20px;
 }
-.convertor{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.convertor {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
 
-}
-
-.body{
-    width: 100%;
-    max-width: 500px;
-    margin: 100px auto;
-    text-align: center;
+.body {
+  width: 100%;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
 }
 input,
-select{
-    width: 250px;
-    height: 30px;
-    border: 1px solid lightblue;
-    outline: none;
+select {
+  width: 250px;
+  height: 30px;
+  border: 1px solid lightblue;
+  outline: none;
 }
-select{
-    width: 100px;
-    margin-left: 10px;
-    letter-spacing: 2px;
+select {
+  width: 100px;
+  margin-left: 10px;
+  letter-spacing: 2px;
 }
 
-span{
-    color: red;
-    font-size: 2em;
-    font-weight: 900;
+span {
+  color: red;
+  font-size: 2em;
+  font-weight: 900;
 }

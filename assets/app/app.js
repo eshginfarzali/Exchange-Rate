@@ -27,8 +27,6 @@ async function currency() {
   select[0].addEventListener("change", () => convert(1, 0));
 
   select[1].addEventListener("change", () => convert(0, 1));
-  //     {
-  //         input[0].value=input[1].value * rates[select[0].value]/rates[select[1].value];;
-  //     })
+  
 }
 currency();
